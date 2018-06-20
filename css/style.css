@@ -1,0 +1,102 @@
+
+* {
+    box-sizing: border-box;
+    margin-bottom: 20px;    
+}
+
+body {
+    margin: 0;
+    background-image: url(../images/concrete_seamless/concrete_seamless.png);
+}
+
+/* Header and navigation menu */
+header { 
+    background: white;
+    border-bottom: 1px solid lightgrey;
+    padding: 20px 20px;
+    width: 100%;
+}
+
+section {
+    margin: auto;
+    width: 960px;
+}
+
+#name{
+    background: #00cec9;
+    color: white;
+    padding: 20px 10px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.link {
+    float: right;
+    color: #999999;
+    padding: 0 10px;
+    text-decoration: none;
+    font-family:  Arial, Helvetica, sans-serif
+}
+
+/* Content box formatting */
+div {
+    clear: both;
+    margin: auto;
+    background: white;
+    color: #999999;
+    width: 960px;
+    height: 300px;
+    border: 1px solid lightgrey;
+    padding: 10px 20px;
+}
+
+h2 {
+    color: #00cec9;
+    font-weight: bold;
+}
+
+hr {
+    height: 2px;
+    border: 0;
+    color: lightgrey;
+    background-color: lightgrey;
+}
+
+ /* Footer formatting */
+footer { 
+    clear: both;
+    background-color: #777777;
+    color: white;
+    text-align: center;
+    border-top: 3px solid #00cec9;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    position:absolute;
+    bottom:0;
+    width:100%;
+}
+
+#copyright {
+    margin-bottom: 0px;
+    position:absolute;
+    bottom: 5px;
+    font-size: 8px;
+    font-family:  Arial, Helvetica, sans-serif
+}
+
+/* About page formatting */
+img {
+    float: left;
+    margin: 0px 10px;
+}
+
+p {
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 2;
+}
+
+/* Portfolio formatting */
+
+/* Contact formatting */
